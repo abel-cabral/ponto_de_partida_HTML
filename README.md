@@ -1,3 +1,56 @@
-# ponto_de_partida_HTML
+<!--# ponto_de_partida_HTML--!>
+<!--Quando precisa comeÃ§ar um trabalho HTML5, use esse pacote. JÃ¡ estÃ¡ com os arquivos js e css locais e com o cdn do bootstrap incluso, Ã© baixa e programar :)--!>
 
-Quando precisa começar um trabalho HTML5, use esse pacote. Já está com os arquivos js e css locais e com o cdn do bootstrap incluso, é baixa e programar :)
+<!doctype html>
+<html lang="pt-br">
+<!--Seu idioma-->
+
+<head>
+    <meta charset="utf-8">
+    <!--Ideial pra br-->
+
+    <title>Ponto de Partida</title>
+    <meta name="description" content="The HTML5 Herald">
+    <!--Bem Intuitivo isso aqui-->
+    <meta name="author" content="Abel Cabral">
+    <!--Seu nome-->
+
+    <!--CDN CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <!--Local CSS-->
+    <link rel="stylesheet" href="./css/styles.css?v=1.0">
+
+    <!--[if lt IE 9]> Caso haja incompatibilidade com Internet Explore 9
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1>Ponto de Partida</h1>
+        <p>Este Ã© o ponto de partida, bom trabalho e que Bill Gates nos abenÃ§oe.</p>
+    </div>
+    <div class="container">
+
+    </div>
+
+
+    <!--De preferencia sempre no fim do documento-->
+   
+    <!--SCRIPT CDN JS-->
+    <!--Complementos Bootstrap--><!--**R-E-M-O-V-E-R
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    **!-->
+    
+    <!--SCRIPT LOCAL JS-->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
